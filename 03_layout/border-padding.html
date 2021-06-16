@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .box1{
+            width: 200px;
+            height: 200px;
+            background-color: #bfa;
+            border: 10px orange solid;
+        /* 
+            内边距（padding）
+                也是四个方向
+                padding-top
+                padding-right
+                padding-bottom
+                padding-left
+            
+                内边距的颜色会影响到盒子的大小
+                背景颜色会延伸到内边距上
+            
+            一个盒子的可见框的大小，由内容区和内边框共同决定
+                所以在计算盒子大小时，需要将这三个区域加到一起计算
+        */
+            padding: 100px;
+
+        }
+        .inner{
+            width: 100%;
+            height: 100%;
+            background-color: yellow;
+        }
+        
+        
+    </style>
+</head>
+<body>
+    <div class="box1">
+        <div class="inner"></div>
+    </div>
+</body>
+</html>
